@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27895B51D792FFF0099A96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895B41D792FFF0099A96B /* AppDelegate.swift */; };
+		B27895B71D792FFF0099A96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895B61D792FFF0099A96B /* ViewController.swift */; };
+		B27895BA1D7930000099A96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27895B81D7930000099A96B /* Main.storyboard */; };
+		B27895BC1D7930000099A96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27895BB1D7930000099A96B /* Assets.xcassets */; };
+		B27895BF1D7930000099A96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27895BD1D7930000099A96B /* LaunchScreen.storyboard */; };
+		B27895C41D7930000099A96B /* PhoneToWatchGesture WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B27895C31D7930000099A96B /* PhoneToWatchGesture WatchKit App.app */; };
+		B27895CA1D7930000099A96B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27895C81D7930000099A96B /* Interface.storyboard */; };
+		B27895CC1D7930000099A96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27895CB1D7930000099A96B /* Assets.xcassets */; };
+		B27895D31D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B27895D21D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B27895D81D7930000099A96B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895D71D7930000099A96B /* InterfaceController.swift */; };
+		B27895DA1D7930000099A96B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895D91D7930000099A96B /* ExtensionDelegate.swift */; };
+		B27895DC1D7930000099A96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27895DB1D7930000099A96B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27895C51D7930000099A96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27895A91D792FFF0099A96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27895C21D7930000099A96B;
+			remoteInfo = "PhoneToWatchGesture WatchKit App";
+		};
+		B27895D41D7930000099A96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27895A91D792FFF0099A96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27895D11D7930000099A96B;
+			remoteInfo = "PhoneToWatchGesture WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B27895E31D7930000099A96B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B27895D31D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27895E71D7930000099A96B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B27895C41D7930000099A96B /* PhoneToWatchGesture WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B27895B11D792FFF0099A96B /* PhoneToWatchGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneToWatchGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27895B41D792FFF0099A96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B27895B61D792FFF0099A96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B27895B91D7930000099A96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27895BB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27895BE1D7930000099A96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27895C01D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27895C31D7930000099A96B /* PhoneToWatchGesture WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhoneToWatchGesture WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27895C91D7930000099A96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B27895CB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27895CD1D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27895D21D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PhoneToWatchGesture WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27895D71D7930000099A96B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B27895D91D7930000099A96B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B27895DB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27895DD1D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27895AE1D792FFF0099A96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27895CF1D7930000099A96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27895A81D792FFF0099A96B = {
+			isa = PBXGroup;
+			children = (
+				B27895B31D792FFF0099A96B /* PhoneToWatchGesture */,
+				B27895C71D7930000099A96B /* PhoneToWatchGesture WatchKit App */,
+				B27895D61D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */,
+				B27895B21D792FFF0099A96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27895B21D792FFF0099A96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27895B11D792FFF0099A96B /* PhoneToWatchGesture.app */,
+				B27895C31D7930000099A96B /* PhoneToWatchGesture WatchKit App.app */,
+				B27895D21D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27895B31D792FFF0099A96B /* PhoneToWatchGesture */ = {
+			isa = PBXGroup;
+			children = (
+				B27895B41D792FFF0099A96B /* AppDelegate.swift */,
+				B27895B61D792FFF0099A96B /* ViewController.swift */,
+				B27895B81D7930000099A96B /* Main.storyboard */,
+				B27895BB1D7930000099A96B /* Assets.xcassets */,
+				B27895BD1D7930000099A96B /* LaunchScreen.storyboard */,
+				B27895C01D7930000099A96B /* Info.plist */,
+			);
+			path = PhoneToWatchGesture;
+			sourceTree = "<group>";
+		};
+		B27895C71D7930000099A96B /* PhoneToWatchGesture WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B27895C81D7930000099A96B /* Interface.storyboard */,
+				B27895CB1D7930000099A96B /* Assets.xcassets */,
+				B27895CD1D7930000099A96B /* Info.plist */,
+			);
+			path = "PhoneToWatchGesture WatchKit App";
+			sourceTree = "<group>";
+		};
+		B27895D61D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B27895D71D7930000099A96B /* InterfaceController.swift */,
+				B27895D91D7930000099A96B /* ExtensionDelegate.swift */,
+				B27895DB1D7930000099A96B /* Assets.xcassets */,
+				B27895DD1D7930000099A96B /* Info.plist */,
+			);
+			path = "PhoneToWatchGesture WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27895B01D792FFF0099A96B /* PhoneToWatchGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27895E81D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture" */;
+			buildPhases = (
+				B27895AD1D792FFF0099A96B /* Sources */,
+				B27895AE1D792FFF0099A96B /* Frameworks */,
+				B27895AF1D792FFF0099A96B /* Resources */,
+				B27895E71D7930000099A96B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27895C61D7930000099A96B /* PBXTargetDependency */,
+			);
+			name = PhoneToWatchGesture;
+			productName = PhoneToWatchGesture;
+			productReference = B27895B11D792FFF0099A96B /* PhoneToWatchGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27895C21D7930000099A96B /* PhoneToWatchGesture WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27895E41D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit App" */;
+			buildPhases = (
+				B27895C11D7930000099A96B /* Resources */,
+				B27895E31D7930000099A96B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27895D51D7930000099A96B /* PBXTargetDependency */,
+			);
+			name = "PhoneToWatchGesture WatchKit App";
+			productName = "PhoneToWatchGesture WatchKit App";
+			productReference = B27895C31D7930000099A96B /* PhoneToWatchGesture WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B27895D11D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27895E01D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit Extension" */;
+			buildPhases = (
+				B27895CE1D7930000099A96B /* Sources */,
+				B27895CF1D7930000099A96B /* Frameworks */,
+				B27895D01D7930000099A96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhoneToWatchGesture WatchKit Extension";
+			productName = "PhoneToWatchGesture WatchKit Extension";
+			productReference = B27895D21D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27895A91D792FFF0099A96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Derivative;
+				TargetAttributes = {
+					B27895B01D792FFF0099A96B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B27895C21D7930000099A96B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B27895D11D7930000099A96B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B27895AC1D792FFF0099A96B /* Build configuration list for PBXProject "PhoneToWatchGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27895A81D792FFF0099A96B;
+			productRefGroup = B27895B21D792FFF0099A96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27895B01D792FFF0099A96B /* PhoneToWatchGesture */,
+				B27895C21D7930000099A96B /* PhoneToWatchGesture WatchKit App */,
+				B27895D11D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27895AF1D792FFF0099A96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27895BF1D7930000099A96B /* LaunchScreen.storyboard in Resources */,
+				B27895BC1D7930000099A96B /* Assets.xcassets in Resources */,
+				B27895BA1D7930000099A96B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27895C11D7930000099A96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27895CC1D7930000099A96B /* Assets.xcassets in Resources */,
+				B27895CA1D7930000099A96B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27895D01D7930000099A96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27895DC1D7930000099A96B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27895AD1D792FFF0099A96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27895B71D792FFF0099A96B /* ViewController.swift in Sources */,
+				B27895B51D792FFF0099A96B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27895CE1D7930000099A96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27895DA1D7930000099A96B /* ExtensionDelegate.swift in Sources */,
+				B27895D81D7930000099A96B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27895C61D7930000099A96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27895C21D7930000099A96B /* PhoneToWatchGesture WatchKit App */;
+			targetProxy = B27895C51D7930000099A96B /* PBXContainerItemProxy */;
+		};
+		B27895D51D7930000099A96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27895D11D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */;
+			targetProxy = B27895D41D7930000099A96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27895B81D7930000099A96B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27895B91D7930000099A96B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27895BD1D7930000099A96B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27895BE1D7930000099A96B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B27895C81D7930000099A96B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27895C91D7930000099A96B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27895DE1D7930000099A96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27895DF1D7930000099A96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27895E11D7930000099A96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B27895E21D7930000099A96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		B27895E51D7930000099A96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PhoneToWatchGesture_WatchKit_Extension;
+				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B27895E61D7930000099A96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PhoneToWatchGesture_WatchKit_Extension;
+				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		B27895E91D7930000099A96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneToWatchGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B27895EA1D7930000099A96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneToWatchGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derivative.PhoneToWatchGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27895AC1D792FFF0099A96B /* Build configuration list for PBXProject "PhoneToWatchGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27895DE1D7930000099A96B /* Debug */,
+				B27895DF1D7930000099A96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27895E01D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27895E11D7930000099A96B /* Debug */,
+				B27895E21D7930000099A96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27895E41D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27895E51D7930000099A96B /* Debug */,
+				B27895E61D7930000099A96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27895E81D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27895E91D7930000099A96B /* Debug */,
+				B27895EA1D7930000099A96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27895A91D792FFF0099A96B /* Project object */;
+}
