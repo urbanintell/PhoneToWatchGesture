@@ -1,0 +1,6 @@
+framework module Pods_PhoneToWatchGesture_WatchKit_App {
+  umbrella header "Pods-PhoneToWatchGesture WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
