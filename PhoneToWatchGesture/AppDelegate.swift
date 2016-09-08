@@ -7,16 +7,73 @@
 //
 
 import UIKit
+import WatchConnectivity
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,WCSessionDelegate {
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+//        Connect watch
+        if WCSession.isSupported() {
+            let session = WCSession.defaultSession()
+            
+            session.delegate = self
+            session.activateSession()
+            
+            if session.paired != true {
+                print("Apple Watch not paired")
+            }
+            
+            if session.watchAppInstalled != true {
+                print("WatchKit app is not installed")
+            }else {
+                
+                print("WatchConnectivity is not supported on this device")
+            }
+        }
         return true
+    }
+    
+    func session(session: WCSession, didReceiveMessage message: [String : AnyObject], replyHandler: ([String : AnyObject]) -> Void) {
+        let replyValues = Dictionary<String, AnyObject>()
+        
+        let viewController = self.window!.rootViewController as! ViewController
+        
+        switch message["command"] as! String {
+        case "pressedBee":
+            
+            NSOperationQueue.mainQueue().addOperationWithBlock({
+                viewController.addImage(100)
+            })
+            
+            
+//            replyValues["status"] = "Playing"
+        case "pressedOG":
+            NSOperationQueue.mainQueue().addOperationWithBlock({
+                viewController.addImage(200)
+            })
+            
+//            replyValues["status"] = "Stopped"
+        case "movement":
+            let x = message["x"] as! Double * 100
+            let y = message["y"] as! Double *
+            100
+            
+           print("x: \(x)\ty:\(y)")
+            
+            NSOperationQueue.mainQueue().addOperationWithBlock({
+                viewController.moveButton(x, moveY: y)
+            })
+            
+            
+        default:
+            break
+        }
+        replyHandler(replyValues)
     }
 
     func applicationWillResignActive(application: UIApplication) {

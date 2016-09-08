@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04A4EA899AECF44424C5BFA /* Pods_PhoneToWatchGesture_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEAD1F616FA010DB9FE0C2 /* Pods_PhoneToWatchGesture_WatchKit_Extension.framework */; };
 		B27895B51D792FFF0099A96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895B41D792FFF0099A96B /* AppDelegate.swift */; };
 		B27895B71D792FFF0099A96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895B61D792FFF0099A96B /* ViewController.swift */; };
 		B27895BA1D7930000099A96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27895B81D7930000099A96B /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 		B27895D81D7930000099A96B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895D71D7930000099A96B /* InterfaceController.swift */; };
 		B27895DA1D7930000099A96B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27895D91D7930000099A96B /* ExtensionDelegate.swift */; };
 		B27895DC1D7930000099A96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27895DB1D7930000099A96B /* Assets.xcassets */; };
+		C9FF5FAD0D624B2E4838B555 /* Pods_PhoneToWatchGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F02536233E1C3BD6D9DBB4 /* Pods_PhoneToWatchGesture.framework */; };
+		F6EAEE92E78E0500FAC1D1C8 /* Pods_PhoneToWatchGesture_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED36F53FA8058D7FE052EB0E /* Pods_PhoneToWatchGesture_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D08D7ED3639389F36602BEB /* Pods-PhoneToWatchGesture WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit App/Pods-PhoneToWatchGesture WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		19F02536233E1C3BD6D9DBB4 /* Pods_PhoneToWatchGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneToWatchGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCAA93842AEB533C81C482F /* Pods-PhoneToWatchGesture WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit App/Pods-PhoneToWatchGesture WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3329460BCB778DD66677B785 /* Pods-PhoneToWatchGesture WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit Extension/Pods-PhoneToWatchGesture WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		73C983B3E86AC985D36C7F0F /* Pods-PhoneToWatchGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture/Pods-PhoneToWatchGesture.debug.xcconfig"; sourceTree = "<group>"; };
 		B27895B11D792FFF0099A96B /* PhoneToWatchGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneToWatchGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27895B41D792FFF0099A96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27895B61D792FFF0099A96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,13 +81,17 @@
 		B27895C01D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B27895C31D7930000099A96B /* PhoneToWatchGesture WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhoneToWatchGesture WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27895C91D7930000099A96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		B27895CB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27895CB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../PhoneToWatchGesture WatchKit App/Assets.xcassets"; sourceTree = "<group>"; };
 		B27895CD1D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B27895D21D7930000099A96B /* PhoneToWatchGesture WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PhoneToWatchGesture WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27895D71D7930000099A96B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B27895D91D7930000099A96B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		B27895DB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27895DB1D7930000099A96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../PhoneToWatchGesture WatchKit Extension/Assets.xcassets"; sourceTree = "<group>"; };
 		B27895DD1D7930000099A96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D169A9AF87DD96729C380E80 /* Pods-PhoneToWatchGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture/Pods-PhoneToWatchGesture.release.xcconfig"; sourceTree = "<group>"; };
+		DFEEAD1F616FA010DB9FE0C2 /* Pods_PhoneToWatchGesture_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneToWatchGesture_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED36F53FA8058D7FE052EB0E /* Pods_PhoneToWatchGesture_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneToWatchGesture_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE66DAB8BEA97601B0C354EB /* Pods-PhoneToWatchGesture WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneToWatchGesture WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit Extension/Pods-PhoneToWatchGesture WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FF5FAD0D624B2E4838B555 /* Pods_PhoneToWatchGesture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +107,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04A4EA899AECF44424C5BFA /* Pods_PhoneToWatchGesture_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42765120C12A3B85891B2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EAEE92E78E0500FAC1D1C8 /* Pods_PhoneToWatchGesture_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0958766F740B8AC0904B4D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F02536233E1C3BD6D9DBB4 /* Pods_PhoneToWatchGesture.framework */,
+				ED36F53FA8058D7FE052EB0E /* Pods_PhoneToWatchGesture_WatchKit_App.framework */,
+				DFEEAD1F616FA010DB9FE0C2 /* Pods_PhoneToWatchGesture_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B27895A81D792FFF0099A96B = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +139,8 @@
 				B27895C71D7930000099A96B /* PhoneToWatchGesture WatchKit App */,
 				B27895D61D7930000099A96B /* PhoneToWatchGesture WatchKit Extension */,
 				B27895B21D792FFF0099A96B /* Products */,
+				DD0B04B1CD31171F1FB82CDE /* Pods */,
+				0958766F740B8AC0904B4D56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				B27895C81D7930000099A96B /* Interface.storyboard */,
-				B27895CB1D7930000099A96B /* Assets.xcassets */,
+				B27895DB1D7930000099A96B /* Assets.xcassets */,
 				B27895CD1D7930000099A96B /* Info.plist */,
 			);
 			path = "PhoneToWatchGesture WatchKit App";
@@ -148,10 +182,23 @@
 			children = (
 				B27895D71D7930000099A96B /* InterfaceController.swift */,
 				B27895D91D7930000099A96B /* ExtensionDelegate.swift */,
-				B27895DB1D7930000099A96B /* Assets.xcassets */,
+				B27895CB1D7930000099A96B /* Assets.xcassets */,
 				B27895DD1D7930000099A96B /* Info.plist */,
 			);
 			path = "PhoneToWatchGesture WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DD0B04B1CD31171F1FB82CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C983B3E86AC985D36C7F0F /* Pods-PhoneToWatchGesture.debug.xcconfig */,
+				D169A9AF87DD96729C380E80 /* Pods-PhoneToWatchGesture.release.xcconfig */,
+				2FCAA93842AEB533C81C482F /* Pods-PhoneToWatchGesture WatchKit App.debug.xcconfig */,
+				0D08D7ED3639389F36602BEB /* Pods-PhoneToWatchGesture WatchKit App.release.xcconfig */,
+				3329460BCB778DD66677B785 /* Pods-PhoneToWatchGesture WatchKit Extension.debug.xcconfig */,
+				EE66DAB8BEA97601B0C354EB /* Pods-PhoneToWatchGesture WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +208,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27895E81D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture" */;
 			buildPhases = (
+				A59F34F4F09B45ABEFD72847 /* [CP] Check Pods Manifest.lock */,
 				B27895AD1D792FFF0099A96B /* Sources */,
 				B27895AE1D792FFF0099A96B /* Frameworks */,
 				B27895AF1D792FFF0099A96B /* Resources */,
 				B27895E71D7930000099A96B /* Embed Watch Content */,
+				23309F500C4578A0887BD3E5 /* [CP] Embed Pods Frameworks */,
+				0083DF30B24C6F702E75CA6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,8 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27895E41D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit App" */;
 			buildPhases = (
+				491DB2023984BABC3A70C535 /* [CP] Check Pods Manifest.lock */,
 				B27895C11D7930000099A96B /* Resources */,
 				B27895E31D7930000099A96B /* Embed App Extensions */,
+				E42765120C12A3B85891B2CE /* Frameworks */,
+				3B9A9FEF7C1E641FC0ED6DA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27895E01D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit Extension" */;
 			buildPhases = (
+				CBFA8129555613B23F86B2DE /* [CP] Check Pods Manifest.lock */,
 				B27895CE1D7930000099A96B /* Sources */,
 				B27895CF1D7930000099A96B /* Frameworks */,
 				B27895D01D7930000099A96B /* Resources */,
+				12E0B547FFA1BC81F752541E /* [CP] Embed Pods Frameworks */,
+				CA49AD3300CDF5ACE3A54462 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +336,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0083DF30B24C6F702E75CA6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneToWatchGesture/Pods-PhoneToWatchGesture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12E0B547FFA1BC81F752541E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit Extension/Pods-PhoneToWatchGesture WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23309F500C4578A0887BD3E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneToWatchGesture/Pods-PhoneToWatchGesture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9A9FEF7C1E641FC0ED6DA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit App/Pods-PhoneToWatchGesture WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		491DB2023984BABC3A70C535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A59F34F4F09B45ABEFD72847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA49AD3300CDF5ACE3A54462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneToWatchGesture WatchKit Extension/Pods-PhoneToWatchGesture WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBFA8129555613B23F86B2DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B27895AD1D792FFF0099A96B /* Sources */ = {
@@ -430,6 +609,7 @@
 		};
 		B27895E11D7930000099A96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3329460BCB778DD66677B785 /* Pods-PhoneToWatchGesture WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -444,6 +624,7 @@
 		};
 		B27895E21D7930000099A96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE66DAB8BEA97601B0C354EB /* Pods-PhoneToWatchGesture WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "PhoneToWatchGesture WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -458,6 +639,7 @@
 		};
 		B27895E51D7930000099A96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCAA93842AEB533C81C482F /* Pods-PhoneToWatchGesture WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -474,6 +656,7 @@
 		};
 		B27895E61D7930000099A96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D08D7ED3639389F36602BEB /* Pods-PhoneToWatchGesture WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -490,6 +673,7 @@
 		};
 		B27895E91D7930000099A96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C983B3E86AC985D36C7F0F /* Pods-PhoneToWatchGesture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhoneToWatchGesture/Info.plist;
@@ -501,6 +685,7 @@
 		};
 		B27895EA1D7930000099A96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D169A9AF87DD96729C380E80 /* Pods-PhoneToWatchGesture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhoneToWatchGesture/Info.plist;
@@ -529,6 +714,7 @@
 				B27895E21D7930000099A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27895E41D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +723,7 @@
 				B27895E61D7930000099A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27895E81D7930000099A96B /* Build configuration list for PBXNativeTarget "PhoneToWatchGesture" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +732,7 @@
 				B27895EA1D7930000099A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
