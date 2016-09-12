@@ -59,11 +59,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate,WCSessionDelegate {
             
 //            replyValues["status"] = "Stopped"
         case "movement":
-            let x = message["x"] as! Double * 100
+            let x = message["x"] as! Double * 45
             let y = message["y"] as! Double *
-            100
+            45
             
-           print("x: \(x)\ty:\(y)")
+          
             
             NSOperationQueue.mainQueue().addOperationWithBlock({
                 viewController.moveButton(x, moveY: y)

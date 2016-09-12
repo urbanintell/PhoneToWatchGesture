@@ -40,10 +40,13 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
     func moveButton(moveX:Double,moveY:Double){
         
         
+        var x = Double(beeImage.center.x) + moveX
+        var y = Double(beeImage.center.y) + moveY
+        
         if ( beeImage.center.x  > 0 &&  beeImage.center.y > 0 && beeImage.center.x < view.bounds.size.width-100 && beeImage.center.y < view.bounds.size.height-100 ){
         
-            beeImage.center.x += CGFloat(moveX)
-            beeImage.center.y += CGFloat(moveY)
+            beeImage.center = CGPointMake(CGFloat(x), CGFloat(y))
+          
         }else {
             beeImage.center.x -= CGFloat(moveX)
             beeImage.center.y -= CGFloat(moveY)
